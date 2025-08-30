@@ -1,5 +1,5 @@
 [build]
-builder = "nixpacks"
+builder = "dockerfile"
 
 [variables]
 SECRET_KEY = "jemDegJUKyoIqdWowuHSmIBBwxIipSqT-secret-key-2024"
