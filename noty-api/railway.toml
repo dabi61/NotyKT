@@ -1,9 +1,6 @@
 [build]
 builder = "nixpacks"
 
-[deploy]
-startCommand = "application/build/install/application/bin/application"
-
 [variables]
 SECRET_KEY = "jemDegJUKyoIqdWowuHSmIBBwxIipSqT-secret-key-2024"
 PGHOST = "${{RAILWAY_PRIVATE_DOMAIN}}"

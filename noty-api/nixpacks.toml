@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["./gradlew :application:installDist --no-daemon"]
+
+[phases.start]
+cmd = "application/build/install/application/bin/application"
